@@ -1,0 +1,106 @@
+/* Home / links container styles */
+#links-container {
+	margin-left: 240px; /* leave space for fixed sidebar */
+	padding: 28px;
+	background: #f7f9fc;
+	min-height: 100vh;
+}
+
+#links-container h2 {
+	color: #0b3d91;
+	font-size: 1.75rem;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+#links-container ul { list-style: none; padding: 0; margin: 0; display:block; gap:12px; }
+#links-container li { margin-bottom: 10px; }
+#links-container a { display:inline-block; padding:10px 14px; border-radius:8px; background:linear-gradient(135deg,#0b3d91,#0d47a1); color:#fff; text-decoration:none; font-weight:600; box-shadow:0 2px 6px rgba(11,61,145,0.12);} 
+
+@media (max-width:640px){
+	#links-container { margin-left:0; padding:16px; }
+}
+
+/* 
+Side Panel
+*/
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+
+/* Side panel fixed to left */
+.side-panel {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: max-content;
+	background: #0b3d91;
+	color: #fff;
+	padding: 24px 12px;
+	overflow-y: auto;
+}
+
+.side-panel ul { list-style: none; padding: 0; margin: 0; }
+.side-panel li { margin-bottom: 8px; }
+
+/* Links styled as buttons */
+.side-panel a,
+.side-panel button {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	padding: 10px 14px;
+	border-radius: 8px;
+	transition: background-color 150ms ease, transform 80ms ease;
+	font-weight: 600;
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	width: 100%;
+	text-align: left;
+}
+
+.side-panel a.unactive,
+.side-panel button.unactive,
+.side-panel .file-tab {
+	background: transparent;
+	color: #dbe9ff;
+}
+
+.side-panel a.unactive:hover,
+.side-panel a.unactive:focus,
+.side-panel button.unactive:hover,
+.side-panel button.unactive:focus,
+.side-panel .file-tab:hover,
+.side-panel .file-tab:focus {
+	background: rgba(255,255,255,0.06);
+	color: #fff;
+	outline: none;
+}
+
+.side-panel a.active,
+.side-panel button.active,
+.side-panel .file-tab.active {
+	background: #fff;
+	color: #0b3d91;
+	box-shadow: 0 2px 6px rgba(11,61,145,0.18);
+}
+
+.side-panel a:active,
+.side-panel button:active { transform: translateY(1px); }
+
+
+.main {
+	margin-left: 240px; 
+	padding: 24px;
+}
+
+/* Responsive on small viewports */
+@media (max-width: 640px) {
+	.side-panel { position: relative; width: 100%; height: auto; box-shadow: none; }
+	.main { margin-left: 0; }
+}
+
+.side-panel button:focus { outline: 3px solid rgba(255,255,255,0.18); outline-offset: 2px; }

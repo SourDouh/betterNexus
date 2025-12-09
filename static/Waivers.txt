@@ -1,0 +1,15 @@
+//Format like this:
+//[evaluation link] [Teacher's name/info]
+//Make sure each link is on a new line
+//If you write anything that is not a link, add two slashes "//" to the start of the line.
+//You can add as many links as you want
+//
+//To change the name put a # in front of the line.
+//The default name is the name of the txt file.
+
+#Waivers
+
+link1.com Namehaha
+link2.com Name2
+link3.com Name3
+link4.com Name4

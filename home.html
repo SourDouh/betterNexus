@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/betterNexus/home.css" />
+</head>
+<body>
+    <div class="side-panel">
+        <ul>
+            <li><button class="unactive" id="home-btn">Home</button></li>
+            <!-- have a selector for each txt file -->
+        </ul>
+    </div>
+    <div id="links-container">
+        <!-- insert list of links from a specific file here -->
+    </div>
+
+</body>
+
+</html>
+<script src ="/betterNexus/script.js"></script>
+<script>
+// Home button shows instructions and is treated like every other sidebar tab
+const homeBtn = document.getElementById('home-btn');
+if (homeBtn) {
+    homeBtn.addEventListener('click', () => {
+        // Mark home as active, deactivate all other buttons
+        document.querySelectorAll('.side-panel button').forEach(btn => {
+            btn.classList.remove('active');
+            btn.classList.add('unactive');
+        });
+        homeBtn.classList.add('active');
+        homeBtn.classList.remove('unactive');
+
+        // Show home instructions
+        showHomeInstructions();
+    });
+
+    // Auto-open home on page load
+    homeBtn.click();
+}
+
+function showHomeInstructions() {
+    const container = document.getElementById('links-container');
+    if (!container) return;
+    
+    container.innerHTML = `
+        <h2>Welcome to BetterNexus</h2>
+        <p><strong>How to use this page:</strong></p>
+        <ul>
+            <li>Click on any tab in the left sidebar to view its contents.</li>
+            <li>Each tab displays a list of links with descriptions.</li>
+            <li>Click any link to open it in a new tab.</li>
+            <li>The "Home" tab (currently selected) displays these instructions.</li>
+            <br></br>
+            <li><strong>To modify or add pages:</strong></li>
+            <li>Navigate to the betterNexus directory, right click on the Template.txt folder, and press duplicate</li>
+            <img src="/betterNexus/folderNavigation.png" alt="imageOfFolderNavigation" style="width:300px;vertical-align:middle;"></img>
+            <li>Double click the new folder to modify it. You will find formatting instructions inside.</li>
+            <li>Once you are done, drag the new folder into the static directory.</li>
+
+
+        </ul>`
+}
+</script>
