@@ -13,4 +13,18 @@ sudo apachectl start
 ```
 
 Then, open the link http://localhost/betterNexus/home.html
-It's that simple!
+It's that that simple!
+
+
+### Other info
+There are two tests available in the **testsForDevelopers** folder. The first test will execute the javascript and ensure that the actual output matches the expected output. You can run it with this command:
+```
+node testJs.js [fileToTest] [ExpectedOutput]
+```
+
+The second test is a spider that will crawl through every link and make sure they are working, and it returns what it finds and any links not returning status code 200 (ok).
+WARNING: The spider struggles on long URLs, such as the one in the evals document. If a url is too long it will not check it properly, and instead return that it was too long.
+The spider can be run with this command:
+```
+zsh spider.zsh
+```
