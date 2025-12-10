@@ -8,8 +8,9 @@ Instructions on how to use it are located within the "Home" page of BetterNexusâ
 Open terminal and type
 ```
 git clone https://github.com/SourDouh/betterNexus/
-mv betterNexus /Library/WebServer/Documents
+sudo mv betterNexus /Library/WebServer/Documents
 sudo apachectl start
 ```
 
 Then, open the link http://localhost/betterNexus/home.html
+It's that simple!
