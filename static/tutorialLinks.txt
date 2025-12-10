@@ -1,5 +1,5 @@
 //Format like this:
-//[tutorialLink] [Teacher's name/info]
+// [Link] [Link Title]
 //Make sure each link is on a new line
 //If you write anything that is not a link, add two slashes "//" to the start of the line.
 //You can add as many links as you want
@@ -9,7 +9,6 @@
 
 #Tutorial Signups
 
-link1.com Name1
-link2.com Name2
-link3.com Name3
-link4.com Name4
+broken.link This link also broken whaaaaat?
+my.nuevaschool.org This one's broken, but with a different error code!!
+This one works though!

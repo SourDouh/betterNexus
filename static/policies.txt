@@ -1,0 +1,17 @@
+//Format like this:
+//[evaluation link] [Teacher's name/info]
+//Make sure each link is on a new line
+//If you write anything that is not a link, add two slashes "//" to the start of the line.
+//You can add as many links as you want
+//
+//To change the name put a # in front of the line.
+//The default name is the name of the txt file.
+
+#Policies and handbooks
+
+https://docs.google.com/document/d/1EzfxDjkCsdmt3Kiqlt-DXHph5pot1KdmjoBFTWMIabg/edit?tab=t.0#heading=h.gjdgxs  Student and Family Handbook 2025
+https://nuevaschool.myschoolapp.com/ftpimages/2160/download/download_2875223.pdf Gender Inclusion Policy
+https://nuevaschool.myschoolapp.com/ftpimages/2160/download/download_2875222.pdf Technology Acceptable use Policy
+https://nuevaschool.myschoolapp.com/ftpimages/2160/download/download_2936344.pdf Student Media Policy
+https://libguides.nuevaschool.org/collectiondevelopmentpolicy Library Collections Policy
+https://docs.google.com/document/d/1PWXs6IC6PV1001ghXKJi20qzgpWZe_m1BJVWNHrjKAo/edit?tab=t.0 Club Funding Policy

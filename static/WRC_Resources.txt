@@ -1,0 +1,16 @@
+//Format like this:
+//[evaluation link] [Teacher's name/info]
+//Make sure each link is on a new line
+//If you write anything that is not a link, add two slashes "//" to the start of the line.
+//You can add as many links as you want
+//
+//To change the name put a # in front of the line.
+//The default name is the name of the txt file.
+
+#WRC resources
+
+https://docs.google.com/presentation/d/1YQrYWQk6e-7g9tLBkthm7bsjKjYp9P3-P36ihNJKL_M/edit?slide=id.g161ef29a552_0_38#slide=id.g161ef29a552_0_38  Plagiarism Presentation
+https://libguides.nuevaschool.org/c.php?g=1060764&p=7711864  WRC's website
+https://libguides.nuevaschool.org/az.php WRC's database of books 
+https://libguides.nuevaschool.org/c.php?g=1060764&p=7786036  WRC's writing resources
+https://libguides.nuevaschool.org/collectiondevelopmentpolicy WRC's collections policy
