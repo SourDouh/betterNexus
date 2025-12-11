@@ -37,7 +37,7 @@
                 const links = [];
                 let match;
                 while ((match = linkRegex.exec(text)) !== null) {
-                    links.push({ link: match[2], name: match[1].trim() });
+                    links.push({ link: match[1], name: match[2].trim() });
                 }
 
                 filesData.push({ file, title, links });
