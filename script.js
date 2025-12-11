@@ -56,7 +56,7 @@
 
     // Resolve the directory promise and pass the resolved array to loadLinks
     (async () => {
-        const files = await getDirectory('/betterNexus/static/');
+        const files = await getDirectory('static/');
         await loadLinks(files);
     })();
 
